@@ -1,0 +1,50 @@
+body {
+    background-color: #7474e3;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+}
+
+.white-keys kbd {
+    background-color: #fff;
+    font-size: 40px;
+    padding: 140px 20px 20px;
+    display: inline-block;
+    border: 1px solid #000;
+    margin-left: -5px;
+}
+
+.black-keys {
+    position: absolute;
+    top: 0;
+    left: 8%;
+    width: 100%;
+}
+
+.black-keys kbd {
+    background-color: #000;
+    font-size: 24px;
+    color: #fff;
+    padding: 70px 20px 20px;
+    display: inline-block;
+    border: 1px solid #fff;
+    margin-left: -5px;
+}
+
+.black-keys kbd:nth-child(2) {
+    margin-left: 5px;
+}
+
+.black-keys kbd:nth-child(3) {
+    margin-left: 65px;
+}
+
+.black-keys kbd:nth-child(4), .black-keys kbd:nth-child(5) {
+    margin-left: 5px;
+}
